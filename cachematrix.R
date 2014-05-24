@@ -1,5 +1,5 @@
 ## Purpose: Purpose of makeCacheMatrix function is to take matrix as an object and cache that matrix
-## for future recall. makeCacheMatrix contains full helper function, desecription is given below.
+## for future recall. makeCacheMatrix contains four helper functions, desecription is given below.
 
 ## set: takes an object and set the value of the passed object to the parent object.
 ## get: returns the object stored in variable x.
