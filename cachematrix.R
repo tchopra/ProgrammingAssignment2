@@ -33,10 +33,11 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Purpose: Purpose of cacheSolve function is to take matrix x as an argument, first check to see if
-## the passed matrix inversed is already cached. If the matrix is already cached, then return it back
+## Purpose: Purpose of cacheSolve function is to return the inverse of a matrix. 
+## cacheSolve fucntion takes matrix x as an argument, first check to see if the passed matrix 
+## inversed is already cached. If the matrix is already cached, then return it back
 ## to user. If the inverse of matrix is not stored in cache, then perform the inverse of the matrix,
-## store it in cache (for further reference) and return the inverse back to the user.
+## store it in cache (for further reference) and return inverse matrix  back to the user.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
